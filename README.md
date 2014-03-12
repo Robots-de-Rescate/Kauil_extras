@@ -1,4 +1,7 @@
 Kauil_extras
 ============
 
-Contiene archivos de configuración del sistema operativo para la correcta operación del robot
+Archivosdisponibles:
+
+-  **Archivos de configuración del sistema operativo para la correcta operación del robot**
+-  **Archivos para el funcionamiento del sensor MLX90620**
