@@ -13,8 +13,10 @@ export ROS_MASTER_URI=http://robot.local:40876
 
 export ARDUINO_PORT=`find /dev | grep "arduino"`
 #Variable set for ARM I2C Interface
-export ISS_PORT1=`find /dev | grep "ISS.00001973"`
+export ISS_PORT_ARM =`find /dev | grep "ISS.00001973"`
 #Variable set for Motors I2C Interface
-export ISS_PORT2=`find /dev | grep "ISS.00001974"`
+export ISS_PORT_Kauil =`find /dev | grep "ISS.00001974"`
+
+export ISS_PORT_STM32 = find /dev | grep "STMicroelectronics_STM32"
 
 exec roslaunch -p 40876 ~/fuerte_workspace/rosLaunch/robotKauil.launch
