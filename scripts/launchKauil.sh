@@ -13,7 +13,7 @@ export ROS_MASTER_URI=http://robot.local:40876
 
 export ARDUINO_PORT=`find /dev | grep "arduino"`
 #Variable set for ARM I2C Interface
-export ISS_PORT_ARM =`find /dev | grep "ISS.00001973"`
+#export ISS_PORT_ARM =`find /dev | grep "ISS.00001973"`
 #Variable set for Kauil motors I2C Interface
 export ISS_PORT_Kauil =`find /dev | grep "ISS.00001974"`
 #Variable set for STM32 board 
