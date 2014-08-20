@@ -3,7 +3,7 @@ los nodos de ROS.
 
 launchKauil.sh:	Define las variables de entorno necesarias para levantar los
 		nodos locales y permitir el funcionamiento del sensor t√rmico MLX90620
-		con la br√jula para mejorar la odometr√a en la computadora del robot.
+		con la br√∫jula para mejorar la odomet√≠a en la computadora del robot.
 
 killKauil.sh: 	Busca y mata el proceso local de roslaunch, y por ende todos 
 		los nodos que se lanzaron por el mismo.
