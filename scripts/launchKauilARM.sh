@@ -12,10 +12,12 @@ export ROS_MASTER_URI=http://robot.local:40876
 #del arduino y la interfaz I2C
 
 export ARDUINO_PORT=`find /dev | grep "arduino"`
+#Variable set for ARM I2C Interface
+export ISS_PORT_ARM=`find /dev | grep "ISS._00001973"`
 #Variable set for Kauil motors I2C Interface
-export ISS_PORT=`find /dev | grep "ISS"`
-#Variable set for STM32 board 
-export STM32_PORT= `find /dev | grep "STMicroelectronics_STM32"`
-#Variable set for Hokuyoexport HOKUYO_PORT= `find /dev | grep "usb-Hokuyo"`
-export HOKUYO_PORT= `find /dev | grep "Hokuyo"`
-exec roslaunch -p 40876 ~/fuerte_workspace/rosLaunch/robotKauil.launch
+export ISS_PORT_Kauil=`find /dev | grep "ISS._00001974"`
+
+exec roslaunch -p 40876 ~/fuerte_workspace/rosLaunch/robotKauilARM.launch
+
+
+
