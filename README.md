@@ -30,3 +30,8 @@ deben añadir las siguientes líneas:
 
 Donde local_hostname es el nombre de host de la máquina que se está configurando
 en el caso particular de kauil, las computadoras tienen los nombres robot.local y estacion.local.*
+
+#To do
+
+- [ ] Cambiar los scripts y la documentación de .bashrc de los scripts para que
+- [ ] Documentar como se realiza ssh a Kauil desde la estación remota 
