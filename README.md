@@ -33,5 +33,4 @@ en el caso particular de kauil, las computadoras tienen los nombres robot.local 
 
 #To do
 
-- [ ] Cambiar los scripts y la documentación de .bashrc de los scripts para que se haga la comunicación entre Kauil y la estación remota por medio del puerto 11311
 - [ ] Documentar como se realiza ssh a Kauil desde la estación remota 
