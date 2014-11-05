@@ -25,11 +25,10 @@ deben añadir las siguientes líneas:
 
     
 
-    export ROS_HOSTNAME=local_hostname
+    export ROS_HOSTNAME=`hostname`.local
     export ROS_MASTER_URI=http://robot.local:11311
 
-Donde local_hostname es el nombre de host de la máquina que se está configurando
-en el caso particular de kauil, las computadoras tienen los nombres robot.local y estacion.local.*
+Esto hace que ROS_HOSTNAME tome el nombre de host de la maquina que se está onfigurando y ROS_MASTER_URI es el nombre de host de la computadora que está sobre kauil. En nuestro caso particular, las computadoras tienen los nombres robot.local y estacion.local.
 
 #To do
 
