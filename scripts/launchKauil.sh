@@ -10,7 +10,7 @@ export ROS_HOSTNAME=robot.local
 export ROS_MASTER_URI=http://robot.local:11311
 
 #Crea variables globales que le indican a roslaunch la ubicación en /dev
-#del arduino y la interfaz I2C
+#del Hokuyo y la STM32
 
 #Variable set for STM32 board 
 export STM32_PORT=`find /dev | grep "STM32"`
