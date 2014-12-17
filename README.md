@@ -3,8 +3,9 @@ Kauil_extras
 
 **Archivos**:
 
--  Archivos de configuración del sistema operativo para la correcta operación del rot.
+-  Archivos de configuración del sistema operativo para la correcta operación del robot.
 -  Archivos para el funcionamiento del sensor térmico MLX9060.
+-  La carpeta  TEW-684UB contiene el driver de la interfase de WiFi del CPU Intel Atom en el robot. 
 
 
 Para iniciar los ambientes de ROS correctamente es necesario copiar las
