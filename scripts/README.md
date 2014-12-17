@@ -2,14 +2,14 @@ Esta carpeta contiene scripts que ayudan a iniciar y detener la ejecucion de
 los nodos de ROS.
 
 launchKauil.sh:	Define las variables de entorno necesarias para levantar los
-		nodos locales y permitir el funcionamiento del sensor t�rmico MLX90620
-		con la brújula para mejorar la odometía en la computadora del robot.
+		nodos locales y permitir el funcionamiento del sensor térmico MLX90620
+		con la brújula para mejorar la odometría en la computadora del robot.
 
 killKauil.sh: 	Busca y mata el proceso local de roslaunch, y por ende todos 
 		los nodos que se lanzaron por el mismo.
 
 launchKauilARM.sh: Define las variables de entorno necesarias para levantar los
-		   nodos locales y permitir el funcionamiento del brazo rob�tico
+		   nodos locales y permitir el funcionamiento del brazo robótico
 		   en la computadora del robot. 
 
 
